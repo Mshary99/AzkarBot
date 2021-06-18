@@ -2,14 +2,7 @@ const express = require("express");
 const app = new express();
 const chalk = require("chalk");
 const PORT = process.env.PORT || 3000;
-const request = require('node-superfetch');
 
-try {
-	const { body } = await request.get(require('.././config/bot').expressURL);
-  
-} catch (err) {
-	
-}
 app.get("/", async function(req, res) {
   await res.sendFile(__dirname + '/pages/home.html');
 });
