@@ -10,11 +10,15 @@ const azkarVoicesSchema = require("../../db/schema/azkarVoices");
 const quranToggleSchema = require("../../db/schema/quranToggle");
 const azkarTimesSchema = require("../../db/schema/azkarTimes");
 const ms = require("ms");
+const request = require("node-superfetch");
 let time;
 
 module.exports = async function(client) {
+  try {
+    const { body } = await request.get(require("../../config/bot").expressURL);
+  } catch (err) {}
   await client.user.setStatus("idle");
-  await client.user.setActivity("$help ~ قرآن", { type: 'LISTENING' })
+  await client.user.setActivity("$help ~ قرآن", { type: "LISTENING" });
   console.log(
     chalk.red.bold(client.user.username) + chalk.blue.bold(" is online")
   );
