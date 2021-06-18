@@ -6,19 +6,19 @@
 
 1. Make Your own discord bot [from here](https://discord.com/developers/applications/)
 2. Make a mongodb database [from here](https://www.mongodb.com/)
-3. make sure you have [Git](https://git-scm.com/downloads), [VS Code](https://code.visualstudio.com/download), (nodejs)[https://nodejs.org/en/download/current/] in yur pc (this is only required if you using computer)
+3. make sure you have [Git](https://git-scm.com/downloads), [VS Code](https://code.visualstudio.com/download), [nodejs](https://nodejs.org/en/download/current/) in yur pc (this is only required if you using computer)
 
 ## 🚀 Getting Started.
 
-if you using [repl.it](https://www.replit.com/) soo you can fork the project [from here]()
+if you using [repl.it](https://www.replit.com/) soo you can fork the project [from here](https://replit.com/@NIR0/AzkarBot?v=1)
 
-else if you using [glitch](https://www.glitch.com/) soo you can remix [from here]()
+else if you using [glitch](https://www.glitch.com/) soo you can remix [from here](https://glitch.com/edit/#!/azkarbotar)
 
 but if you using your computer soo follow this steps!
 
 1. make a new folder name it any thing
 2. press right click and chose `git bash here`
-3. then he well open a cmd for you type this command inside: `git clone `
+3. then he well open a cmd for you type this command inside: `git clone https://github.com/DevelopersSupportAR/AzkarBot.git`
 
 well done you forked the project in your pc
 
